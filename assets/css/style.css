@@ -127,6 +127,24 @@ header .logo img {
   margin-bottom: 20px;
 }
 
+/* Centered section */
+.layer.centered {
+  text-align: center;
+}
+
+.layer.centered .inner {
+  max-width: 800px;
+}
+
+.layer.centered h2 {
+  margin-bottom: 20px;
+}
+
+.icon-centered {
+  height: 48px;
+  margin-bottom: 30px;
+}
+
 /* Banner section */
 .layer.with-banner {
   position: relative;
