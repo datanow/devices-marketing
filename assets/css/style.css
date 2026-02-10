@@ -119,12 +119,17 @@ header .logo img {
 }
 
 /* Section spacing */
-.layer h1 {
+.layer h1,
+.layer h2 {
   margin-bottom: 20px;
 }
 
 .layer p {
   margin-bottom: 20px;
+}
+
+.layer p:last-child {
+  margin-bottom: 0;
 }
 
 /* Centered section */
@@ -216,4 +221,47 @@ blockquote cite {
   justify-content: center;
   color: #747895;
   font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .grid {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .layer {
+    padding: 50px 0;
+  }
+
+  h1 { font-size: 1.8em; }
+  h2 { font-size: 1.5em; }
+
+  .placeholder.round {
+    max-width: 220px;
+    min-height: 220px;
+    margin: 0 auto;
+  }
+
+  .layer.with-banner {
+    padding-top: 100px;
+  }
+
+  blockquote .quote-highlight {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 500px) {
+  .inner {
+    padding: 0 20px;
+  }
+
+  .layer {
+    padding: 40px 0;
+  }
+
+  h1 { font-size: 1.5em; }
+  h2 { font-size: 1.3em; }
+  p { font-size: 1em; }
 }
