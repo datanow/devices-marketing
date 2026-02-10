@@ -118,6 +118,15 @@ header .logo img {
   color: #fff;
 }
 
+/* Section spacing */
+.layer h1 {
+  margin-bottom: 20px;
+}
+
+.layer p {
+  margin-bottom: 20px;
+}
+
 /* Placeholder images */
 .placeholder {
   background: #E8E8F6;
