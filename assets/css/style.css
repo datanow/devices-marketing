@@ -145,6 +145,11 @@ header .logo img {
   margin-bottom: 30px;
 }
 
+.icon-small {
+  height: 36px;
+  margin-bottom: 20px;
+}
+
 /* Banner section */
 .layer.with-banner {
   position: relative;
