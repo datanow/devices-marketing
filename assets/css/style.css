@@ -67,6 +67,10 @@ img {
   padding: 80px 0;
 }
 
+.layer:nth-child(even) {
+  background: #F9F9FD;
+}
+
 .grid {
   display: flex;
   align-items: center;
