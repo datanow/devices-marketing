@@ -1,0 +1,132 @@
+/* Fonts */
+@font-face {
+  font-family: 'Neutrif Studio';
+  src: url('../fonts/NeutrifStudio-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Neutrif Studio';
+  src: url('../fonts/NeutrifStudio-Medium.woff2') format('woff2');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Neutrif Studio';
+  src: url('../fonts/NeutrifStudio-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Neutrif Studio';
+  src: url('../fonts/NeutrifStudio-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base */
+body {
+  font-family: 'Neutrif Studio', system-ui, sans-serif;
+  color: #747895;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+h1, h2, h3, h4 {
+  color: #33395D;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+h1 { font-size: 2.4em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.5em; }
+p { font-size: 1.1em; }
+
+a {
+  color: #008DFF;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Layout */
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.layer {
+  padding: 80px 0;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.grid .col {
+  flex: 1;
+}
+
+/* Header */
+header {
+  padding: 20px 0;
+}
+
+header .logo img {
+  height: 28px;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.26s ease all;
+}
+
+.button.green {
+  background: #2DCA73;
+  color: #fff;
+}
+
+.button.green:hover {
+  box-shadow: 0px 5px 9px -5px #2DCA73;
+}
+
+/* Dark sections */
+.layer.dark {
+  background: #33395D;
+  color: rgba(218, 237, 255, 0.74);
+}
+
+.layer.dark h1,
+.layer.dark h2,
+.layer.dark h3 {
+  color: #fff;
+}
+
+/* Placeholder images */
+.placeholder {
+  background: #E8E8F6;
+  border-radius: 6px;
+  width: 100%;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #747895;
+  font-size: 14px;
+}
