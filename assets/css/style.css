@@ -178,12 +178,28 @@ blockquote cite {
   color: #33395D;
 }
 
+/* Badge */
+.badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 4px 14px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
 /* Placeholder images */
 .placeholder {
   background: #E8E8F6;
   border-radius: 6px;
   width: 100%;
   min-height: 280px;
+}
+
+.placeholder.dark-placeholder {
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .placeholder.round {
