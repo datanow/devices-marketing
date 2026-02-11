@@ -26,7 +26,7 @@
         <div class="col">
           <h1>SiteLink and DeviceLink for reliable IoT readings 24/7</h1>
           <p>Keeping IoT devices running during the rough and tumble of an industrial site isn't easy. The right tools and people are essential.</p>
-          <a href="#" class="button green">Call to action</a>
+          <a href="#" class="button green" onclick="document.getElementById('access-modal').classList.add('active');return false;">Request Access</a>
         </div>
         <div class="col">
           <img src="assets/img/screenshots/iot-pi-photo.png" alt="IoT Raspberry Pi device" class="hero-photo">
@@ -40,7 +40,7 @@
     <div class="inner">
       <div class="grid">
         <div class="col">
-          <div class="placeholder round">Portrait photo</div>
+          <img src="assets/img/screenshots/modem-pi-cabinet.jpg" alt="Modem Pi cabinet" class="round">
         </div>
         <div class="col">
           <blockquote>
@@ -74,11 +74,11 @@
     <div class="inner">
       <div class="grid">
         <div class="col">
-          <h2>SiteLink Dashboard gives the overview</h2>
-          <p>SiteLink gets a snapshot of all IoT devices across a site to give quick situational awareness and pinpoint how widespread an issue is.</p>
+          <img src="assets/img/screenshots/site-link-screenshot.jpg" alt="SiteLink dashboard">
         </div>
         <div class="col">
-          <img src="assets/img/screenshots/site-link-screenshot.jpg" alt="SiteLink dashboard">
+          <h2>SiteLink Dashboard gives the overview</h2>
+          <p>SiteLink gets a snapshot of all IoT devices across a site to give quick situational awareness and pinpoint how widespread an issue is.</p>
         </div>
       </div>
     </div>
@@ -106,6 +106,15 @@
       <p>A unique "Request call now" button allows you to get immediate backup from an on-call technician while you're there with a device. Expect a phone call within 15 minutes of requesting help.</p>
     </div>
   </section>
+
+  <!-- Modal -->
+  <div id="access-modal" class="modal-overlay" onclick="if(event.target===this)this.classList.remove('active')">
+    <div class="modal">
+      <button class="modal-close" onclick="document.getElementById('access-modal').classList.remove('active')">&times;</button>
+      <h3>Early access for existing Datanow customers</h3>
+      <p>These new features are only supported on the latest version of Datanow's hardware. To see if your site is ready, please email <a href="mailto:support@datanow.co.nz">support@datanow.co.nz</a>.</p>
+    </div>
+  </div>
 
 </body>
 </html>
