@@ -56,6 +56,15 @@ img {
   height: auto;
 }
 
+.grid .col img {
+  border-radius: 12px;
+}
+
+.grid .col img.hero-photo {
+  mask-image: radial-gradient(ellipse 85% 85% at center, black 50%, transparent 95%);
+  -webkit-mask-image: radial-gradient(ellipse 85% 85% at center, black 50%, transparent 95%);
+}
+
 /* Layout */
 .inner {
   max-width: 1100px;
