@@ -84,6 +84,7 @@ img {
 /* Header */
 header {
   padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 header .logo img {
@@ -108,18 +109,6 @@ header .logo img {
 
 .button.green:hover {
   box-shadow: 0px 5px 9px -5px #2DCA73;
-}
-
-/* Dark sections */
-.layer.dark {
-  background: #33395D;
-  color: rgba(218, 237, 255, 0.74);
-}
-
-.layer.dark h1,
-.layer.dark h2,
-.layer.dark h3 {
-  color: #fff;
 }
 
 /* Section spacing */
@@ -149,31 +138,6 @@ header .logo img {
   margin-bottom: 20px;
 }
 
-.icon-centered {
-  height: 48px;
-  margin-bottom: 30px;
-}
-
-.icon-small {
-  height: 36px;
-  margin-bottom: 20px;
-}
-
-/* Banner section */
-.layer.with-banner {
-  position: relative;
-  padding-top: 120px;
-}
-
-.layer.with-banner .banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 80px;
-  background: #33395D;
-}
-
 /* Blockquote */
 blockquote {
   font-size: 14px;
@@ -192,28 +156,12 @@ blockquote cite {
   color: #33395D;
 }
 
-/* Badge */
-.badge {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.15);
-  color: #fff;
-  font-size: 13px;
-  font-weight: 600;
-  padding: 4px 14px;
-  border-radius: 50px;
-  margin-bottom: 20px;
-}
-
 /* Placeholder images */
 .placeholder {
   background: #E8E8F6;
   border-radius: 6px;
   width: 100%;
   min-height: 280px;
-}
-
-.placeholder.dark-placeholder {
-  background: rgba(255, 255, 255, 0.1);
 }
 
 .placeholder.round {
@@ -245,10 +193,6 @@ blockquote cite {
     max-width: 220px;
     min-height: 220px;
     margin: 0 auto;
-  }
-
-  .layer.with-banner {
-    padding-top: 100px;
   }
 
   blockquote .quote-highlight {
