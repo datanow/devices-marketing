@@ -96,8 +96,27 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
+header .inner {
+  display: flex;
+  align-items: center;
+}
+
 header .logo img {
   height: 28px;
+}
+
+header .button.outline {
+  margin-left: auto;
+  padding: 7px 22px;
+  background: transparent;
+  color: #33395D;
+  border: 1px solid rgba(113, 113, 175, 0.23);
+  font-size: 15px;
+}
+
+header .button.outline:hover {
+  color: #008DFF;
+  border-color: rgba(113, 113, 175, 0.5);
 }
 
 /* Buttons */
